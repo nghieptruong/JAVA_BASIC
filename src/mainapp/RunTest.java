@@ -132,9 +132,9 @@ public class RunTest {
 //            System.out.print(arr5[i] + " ");
 //        }
 //
-//        String s = "Hello";
-//        printStatement(s);
-//        System.out.println(s); // Hello or How are you? --> Hello
+        String s = "Hello";
+        printStatement(s);
+        System.out.println(s); // Hello or How are you? --> Hello
 
 
 //        String s1 = "Hello";
@@ -186,15 +186,18 @@ public class RunTest {
 
         //To Sum up
         // Compare 2 value string ==> equals
-        // + : recommend StringBuilder (good performance)
+        // + : recommend StringBuilder (good performance) ===> javap .class ??? (later)
 
 
     }
 
     // value or reference
+    // String is immutable
     public static void printStatement(String statement) {
         statement = "How are you?";
     }
+
+
 
 }
 
